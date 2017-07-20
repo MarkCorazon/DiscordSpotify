@@ -14,7 +14,6 @@ Spotify.prototype.start = function () {
 
 Spotify.prototype.load = function () {
   this.setup = function() {
-    //var iframe = '<iframe id="spotifyEmbedded" src="https://open.spotify.com/embed/user/sonymusicentertainment/playlist/3oRNodhtGLVnZl0Q32FJHB" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>'
     var src = 'https://open.spotify.com/user/prxmusic/playlist/3VEFRGe3APwGRl4eTpMS4x';
     var iframe = '<iframe id="spotifyEmbedded" src="'+ src +'" width="240px" height="100%" frameborder="0" allowtransparency="true"></iframe>';
     var hideButton = '<div class="hideButton"><div class="dock-toggle"><span class="chevron"></span></div></div>'
@@ -106,7 +105,7 @@ Spotify.prototype.getDescription = function () {
   return "Get embedded spotify in discord";
 };
 Spotify.prototype.getVersion = function () {
-  return "0.3.5";
+  return "1.0.0";
 };
 Spotify.prototype.getAuthor = function () {
   return "MarkCorazon";
