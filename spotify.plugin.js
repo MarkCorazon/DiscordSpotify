@@ -37,8 +37,6 @@ Spotify.prototype.load = function () {
       "transition": "transform 0.3s ease-out 0.1s",
     });
 
-    //transform: rotate(45deg);
-
     $(".dock-toggle").css({
       "width": "50px",
       "height": "50px",
@@ -105,7 +103,7 @@ Spotify.prototype.getDescription = function () {
   return "Get embedded spotify in discord";
 };
 Spotify.prototype.getVersion = function () {
-  return "1.0.0";
+  return "1.0.1";
 };
 Spotify.prototype.getAuthor = function () {
   return "MarkCorazon";
